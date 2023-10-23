@@ -133,7 +133,7 @@ export class Slide {
     return this;
   }
 }
-export class SlideNav extends Slide {
+export default class SlideNav extends Slide {
   constructor(slide, wrap) {
     super(slide, wrap);
     this.bindControlEvents();
